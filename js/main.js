@@ -1,6 +1,6 @@
-import { Food } from "/js/food.js";
-import { InputHandler } from "/js/input.js";
-import { Snake } from "/js/snake.js";
+import { Food } from "./food.js";
+import { InputHandler } from "./input.js";
+import { Snake } from "./snake.js";
 
 const canvas = document.getElementById("gameScreen");
 const GAME_WIDTH = canvas.getAttribute("width");
